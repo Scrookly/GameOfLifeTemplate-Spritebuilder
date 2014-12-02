@@ -37,7 +37,7 @@
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		D9B6665B1A2D704000E98F76 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B6665A1A2D704000E98F76 /* Grid.m */; };
-		D9B6665F1A2D706000E98F76 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B6665E1A2D706000E98F76 /* Creature.m */; };
+		D9B666681A2D720D00E98F76 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B666671A2D720D00E98F76 /* Creature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +94,8 @@
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
 		D9B666591A2D704000E98F76 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		D9B6665A1A2D704000E98F76 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
-		D9B6665D1A2D706000E98F76 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
-		D9B6665E1A2D706000E98F76 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		D9B666661A2D720D00E98F76 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = Source/Creature.h; sourceTree = "<group>"; };
+		D9B666671A2D720D00E98F76 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Creature.m; path = Source/Creature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				D9B666591A2D704000E98F76 /* Grid.h */,
 				D9B6665A1A2D704000E98F76 /* Grid.m */,
-				D9B6665D1A2D706000E98F76 /* Creature.h */,
-				D9B6665E1A2D706000E98F76 /* Creature.m */,
+				D9B666661A2D720D00E98F76 /* Creature.h */,
+				D9B666671A2D720D00E98F76 /* Creature.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				D9B6665B1A2D704000E98F76 /* Grid.m in Sources */,
-				D9B6665F1A2D706000E98F76 /* Creature.m in Sources */,
+				D9B666681A2D720D00E98F76 /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
